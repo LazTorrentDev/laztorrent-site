@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LazTorrent — Lawful Cyberpunk Torrent Client</title>
+  <meta name="description" content="LazTorrent is a lawful-use desktop torrent client with a cyberpunk interface, free 5 Mbps mode, and Premium unlock support." />
+  <link rel="icon" href="assets/LazTorrent.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="LazTorrent home">
+      <img src="assets/laztorrent-icon.png" alt="" />
+      <span>LazTorrent</span>
+    </a>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#premium">Premium</a>
+      <a href="#legal">Legal use</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Desktop torrent client · Free + Premium</p>
+        <h1>Lawful file sharing with a neon cyberpunk edge.</h1>
+        <p class="lead">
+          LazTorrent is built for authorized torrents, personal file distribution,
+          open-source downloads, public-domain media, and private communities you are allowed to access.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#download">Download Free</a>
+          <a class="button secondary" href="#premium">View Premium</a>
+        </div>
+        <p class="micro">Free Mode includes a 5 Mbps app-level download cap. Premium removes the app-level cap.</p>
+      </div>
+      <div class="hero-art">
+        <img src="assets/cyber-banner.png" alt="Cyberpunk LazTorrent interface artwork" />
+      </div>
+    </section>
+
+    <section class="panel stats">
+      <div>
+        <strong>5 Mbps</strong>
+        <span>Free Mode cap</span>
+      </div>
+      <div>
+        <strong>Premium</strong>
+        <span>Uncapped by app</span>
+      </div>
+      <div>
+        <strong>Legal use</strong>
+        <span>Required</span>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Features</p>
+        <h2>Simple, clean, and focused.</h2>
+      </div>
+      <div class="grid">
+        <article class="card"><h3>Magnet links</h3><p>Add lawful magnet links and choose exactly where the download should go.</p></article>
+        <article class="card"><h3>Torrent files</h3><p>Add authorized .torrent files and manage transfers from the queue.</p></article>
+        <article class="card"><h3>Choose save folder</h3><p>LazTorrent asks for a save location when adding a download.</p></article>
+        <article class="card"><h3>Private tracker mode</h3><p>Designed for legitimate private communities and their rules.</p></article>
+        <article class="card"><h3>Pause and resume</h3><p>Control selected downloads, or pause/resume all when nothing is selected.</p></article>
+        <article class="card"><h3>Cyberpunk interface</h3><p>A polished dark UI with neon LT branding and a custom Windows installer icon.</p></article>
+      </div>
+    </section>
+
+    <section id="premium" class="section split">
+      <div>
+        <p class="eyebrow">Premium</p>
+        <h2>Unlock uncapped LazTorrent speed.</h2>
+        <p>
+          Premium removes LazTorrent's app-level 5 Mbps download cap.
+          It does not bypass your ISP speed, tracker rules, network controls, or local laws.
+        </p>
+        <a class="button primary" href="REPLACE_WITH_STRIPE_OR_PADDLE_PAYMENT_LINK">Buy Premium</a>
+      </div>
+      <div class="card premium-card">
+        <h3>How Premium works</h3>
+        <ol>
+          <li>Buy Premium using the payment link.</li>
+          <li>Receive a Premium license file.</li>
+          <li>Open LazTorrent and choose Premium → Activate.</li>
+          <li>Select the license file to unlock Premium Mode.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="legal" class="section legal">
+      <p class="eyebrow">Legal-use policy</p>
+      <h2>Built for lawful torrents only.</h2>
+      <p>
+        LazTorrent must not be used for piracy, malware, stolen data, copyright infringement,
+        tracker evasion, ratio cheating, or illegal content. Only download, seed, or distribute
+        files you own, have permission to use, or are lawfully allowed to access.
+      </p>
+    </section>
+
+    <section id="download" class="section download">
+      <div>
+        <p class="eyebrow">Download</p>
+        <h2>Get LazTorrent for Windows.</h2>
+        <p>The public installer will be linked here after you upload the release file.</p>
+        <a class="button primary" href="REPLACE_WITH_GITHUB_RELEASE_INSTALLER_LINK">Download LazTorrent Free</a>
+        <p class="micro">Do not upload the Admin build publicly. Only share the Public installer.</p>
+      </div>
+      <img src="assets/cyber-sidebar.png" alt="LazTorrent cyberpunk download artwork" />
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> LazTorrent</span>
+    <a href="mailto:Laztorrent.app@gmail.com">Laztorrent.app@gmail.com</a>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
